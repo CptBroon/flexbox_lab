@@ -1,13 +1,55 @@
 .favourite-bg-1 {
     background-image: url(../img/favourites/indonesia.png);
+    margin: 30px;
+    height: 200px;
+    width: 300px;
+    background-size: 220%;
   }
-  
-  .favourite-bg-2 {
+
+.favourite-bg-2 {
     background-image: url(../img/favourites/australia.png);
+    margin: 30px;
+    height: 200px;
+    width: 300px;
+    background-size: 220%;
   }
   
-  .favourite-bg-3 {
+.favourite-bg-3 {
     background-image: url(../img/favourites/switzerland.png);
+    margin: 30px;
+    height: 200px;
+    width: 300px;
+    background-size: 220%;
   }
   
-  
+.favourite {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.favourite > div > h3 {
+  font-family: fantasy;
+  font-size: xx-large;
+  margin: 30px;
+  color: white;
+}
+
+.favourite > div > p {
+  font-size: x-small;
+  margin: 30px;
+  color: white;
+}
+
+.favourite > div > a {
+  background-color: aquamarine;
+  color: white;
+  margin-left: 30px;
+  position: relative;
+  top: 25px;
+}
+
+
+
+
+

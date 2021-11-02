@@ -1,4 +1,6 @@
-
+header{
+  margin:10px;
+}
   .main-nav {
     display: flex;
     background-color: #4584b1;
